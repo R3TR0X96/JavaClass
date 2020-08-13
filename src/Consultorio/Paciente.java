@@ -52,13 +52,11 @@ public class Paciente {
 	}
 	
 	public String traerNombreCompleto() {
-		String resultado;
-		resultado=nombre+", "+apellido;
-		return resultado;
+		return nombre+", "+apellido;
 		
 	}
 	
 	public float getIMC() {
-		return peso / (estatura*estatura);
+		return (float)(peso / (estatura*estatura));
 	}
 }
