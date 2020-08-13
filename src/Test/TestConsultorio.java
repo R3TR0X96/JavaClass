@@ -2,6 +2,7 @@ package Test;
 
 import Consultorio.Medico;
 import Consultorio.Paciente;
+import Consultorio.Paciente;
 
 public class TestConsultorio {
 
@@ -16,6 +17,9 @@ public class TestConsultorio {
 			System.out.println("Paciente: "+paciente1.traerNombreCompleto());
 			System.out.println("IMC: "+paciente1.getIMC());
 			
+			Paciente paciente2 = new Paciente("Angel", "Funes", 1.76f, 76f);
+			System.out.println("Paciente: "+paciente2.traerNombreCompleto());
+			System.out.println("IMC: "+paciente2.getIMC());
 			
 	}
 
